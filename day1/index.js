@@ -14,12 +14,9 @@ for (let i = 0; i < data.length; i++) {
 left.sort((a, b) => b - a)
 right.sort((a, b) => b - a)
 
-for (let i = 0; i < left.length; i++) {
-    count += Math.abs(left[i] - right[i])
-}
-
 let arr = [];
 for (let i = 0; i < left.length; i++) {
+    count += Math.abs(left[i] - right[i])
     let num = 0;
 
     // WIP remove redundant iterations cuz arrays are sorted
