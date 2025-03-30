@@ -26,6 +26,7 @@ for (let i = 0; i < left.length; i++) {
         }
     }
     arr.push(left[i] * num);
+    console.log(randomvar);
 }
 
 console.log(`part 1: ${count}`);

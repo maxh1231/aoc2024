@@ -1,6 +1,6 @@
 const fs = require('fs');
 let data = fs.readFileSync('input.txt', 'utf-8');
-let arr = (data.match(/mul\(\d+,\d+\)/g))
+let arr = (data.match(/mul\(\d+,\d+\)/g));
 let part1 = 0;
 let part2 = 0;
 
