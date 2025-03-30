@@ -4,6 +4,7 @@ let data = fs.readFileSync('input.txt', 'utf-8').split('\n');
 
 console.log(data);
 
+// WIP
 const perimeter = {
     left: [
         [0, -1],
